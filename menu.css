@@ -28,7 +28,7 @@
     list-style-type: none;
     display: inline-block;
     font-size: 22px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .container-menu ul li a {
@@ -40,6 +40,7 @@
 
 .container-menu ul li a:hover {
     color: #0b03a6;
+    border-bottom: 1px solid #0b03a6;
 }
 
 .container-menu:last-child  .container-cadastrar a {
@@ -62,3 +63,79 @@
     background-color: #0b03a6;
 }
 
+.text-h1 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 57px;
+}
+
+.text-h5 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.container-basedropescolha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-dropzone1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00005A;
+    border-radius: 20px;
+    width: 1000px;
+    height: 250px;
+}
+
+.container-dropzone2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #06027D;
+    border-radius: 20px;
+    width: 950px;
+    height: 200px;
+}
+
+#droptext {
+    position: absolute;
+    top: 360px;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.container-escolha {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 500px;
+    height: 68px;
+}
+
+.container-escolha p {
+   font-size: 25px; 
+   font-weight: 400;
+   line-height: 31px;
+   margin-left: 120px;
+}
+
+.container-escolhadrop {
+    width: 83px;
+    height: 68px;
+    border-left: 1px solid #000000;
+    border-radius: 0px 15px 15px 0px;
+}
