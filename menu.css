@@ -207,9 +207,10 @@
 }
 
 .copr {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 25px;
     color: #83aac3;
+}
+
+.icons {
+    padding: 25px;
 }
