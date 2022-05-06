@@ -135,8 +135,7 @@
 
 #animaicon {
     -webkit-filter: opacity(20%);
-    margin-right: 35px;
-    margin-left: 35px;
+    padding: 20px;
 }
 
 #animaicon:hover {
