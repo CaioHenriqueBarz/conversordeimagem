@@ -133,33 +133,16 @@
     height: 68px;
 }
 
-.container-escolha p {
-   font-size: 25px; 
-   font-weight: 400;
-   line-height: 31px;
-   margin-left: 15px;
-}
-
-.container-escolha p a {
-    color: #00005A;
-    text-decoration: none;
-    transition: .2s ease;
-}
-
-.container-escolha p a:hover {
-    color: #0b03a6;
-}
-
 #animaicon {
     -webkit-filter: opacity(20%);
-    margin-right: 15px;
+    margin-right: 35px;
+    margin-left: 35px;
 }
 
 #animaicon:hover {
     -webkit-filter: opacity(100%);
     transition: .2s;
 }
-
 
 /* RODAPE */
 
