@@ -7,6 +7,8 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+/* CABEÇALHO */
+
 .container-cabecalho {
     display: flex;
     justify-content: center;
@@ -62,6 +64,8 @@
 .container-cadastrar li a:hover {
     background-color: #0b03a6;
 }
+
+/* BASE E DROPZONE */
 
 .text-h1 h1 {
     display: flex;
@@ -134,8 +138,64 @@
 }
 
 .container-escolhadrop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 83px;
     height: 68px;
     border-left: 1px solid #000000;
     border-radius: 0px 15px 15px 0px;
+}
+
+/* RODAPE */
+
+.footer {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 130px;
+    background-color: #00005A;
+}
+
+.container-rodape {
+    display: flex;
+    align-items: center;
+}
+
+.sobre-nos {
+    color: #83aac3;
+    width: 250px;
+    padding: 25px;
+}
+
+#sb {
+    color: #ffffff;
+}
+
+.coluna ul {
+    padding: 25px;
+}
+
+.coluna ul li {
+    list-style-type: none;
+}
+
+.coluna ul li a {
+    text-decoration: none;
+    color: #83aac3;
+    transition: .2s ease;
+}
+
+.coluna ul li a:hover {
+    color: #ffffff;
+}
+
+.copr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    color: #83aac3;
 }
