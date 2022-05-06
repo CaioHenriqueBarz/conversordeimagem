@@ -137,6 +137,16 @@
    margin-left: 120px;
 }
 
+.container-escolha p a {
+    color:#000000;
+    text-decoration: none;
+    transition: .2s ease;
+}
+
+.container-escolha p a:hover {
+    color: #00005A;
+}
+
 .container-escolhadrop {
     display: flex;
     justify-content: center;
@@ -144,7 +154,12 @@
     width: 83px;
     height: 68px;
     border-left: 1px solid #000000;
-    border-radius: 0px 15px 15px 0px;
+    border-radius: 0px 13px 13px 0px;
+    transition: .2s ease;
+}
+
+.container-escolhadrop:hover {
+    background-color: #00005A;
 }
 
 /* RODAPE */
