@@ -111,7 +111,7 @@
     justify-content: center;
     align-items: center;
     background-color: #06027D;
-    border-radius: 8px;
+    border-radius: 10px;
     width: 960px;
     height: 210px;
 }
@@ -128,6 +128,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: #ffffff;
+    border-radius: 10px;
     width: 500px;
     height: 68px;
 }
@@ -136,32 +137,29 @@
    font-size: 25px; 
    font-weight: 400;
    line-height: 31px;
-   margin-left: 120px;
+   margin-left: 15px;
 }
 
 .container-escolha p a {
-    color:#000000;
+    color: #00005A;
     text-decoration: none;
     transition: .2s ease;
 }
 
 .container-escolha p a:hover {
-    color: #00005A;
+    color: #0b03a6;
 }
 
-.container-escolhadrop {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 83px;
-    height: 68px;
-    border-left: 1px solid #000000;
-    transition: .2s ease;
+#animaicon {
+    -webkit-filter: opacity(20%);
+    margin-right: 15px;
 }
 
-.container-escolhadrop:hover {
-    background-color: #e9e9e9;
+#animaicon:hover {
+    -webkit-filter: opacity(100%);
+    transition: .2s;
 }
+
 
 /* RODAPE */
 
