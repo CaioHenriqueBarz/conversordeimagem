@@ -15,7 +15,7 @@
     align-items: center;
     width: 100%;
     height: 70px;
-    border-bottom: 1px solid #00005A;
+    box-shadow: 0px 1px 2px #e9e9e9;
 }
 
 .container-logo {
@@ -26,10 +26,10 @@
     margin-top: -2px;
 }
 
-.container-menu ul li, .container-cadastrar {
+.container-menu ul li {
     list-style-type: none;
     display: inline-block;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 400;
 }
 
@@ -45,15 +45,17 @@
     border-bottom: 1px solid #0b03a6;
 }
 
-.container-menu:last-child  .container-cadastrar a {
+.container-menu:last-child {
     color: #ffffff;
 }
 
 
-.container-cadastrar li a {
+#cadastrar-btn a {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #ffffff;
+    border: none;
     background-color: #00005A;
     width: 94px;
     height: 37px;
@@ -61,7 +63,7 @@
     transition: .2s ease;
 }
 
-.container-cadastrar li a:hover {
+#cadastrar-btn a:hover {
     background-color: #0b03a6;
 }
 
@@ -72,7 +74,8 @@
     justify-content: center;
     align-items: center;
     margin-top: 30px;
-    font-weight: 600;
+    color: #00005A;
+    font-weight: 400;
     font-size: 45px;
     line-height: 57px;
 }
@@ -82,8 +85,8 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 15px;
-    font-weight: 300;
-    font-size: 20px;
+    font-weight: 100;
+    font-size: 19px;
     line-height: 25px;
 }
 
@@ -98,7 +101,7 @@
     justify-content: center;
     align-items: center;
     background-color: #00005A;
-    border-radius: 20px;
+    border-radius: 15px;
     width: 1000px;
     height: 250px;
 }
@@ -108,9 +111,9 @@
     justify-content: center;
     align-items: center;
     background-color: #06027D;
-    border-radius: 20px;
-    width: 950px;
-    height: 200px;
+    border-radius: 8px;
+    width: 960px;
+    height: 210px;
 }
 
 #droptext {
@@ -125,7 +128,6 @@
     justify-content: space-between;
     align-items: center;
     background-color: #ffffff;
-    border-radius: 15px;
     width: 500px;
     height: 68px;
 }
@@ -154,12 +156,11 @@
     width: 83px;
     height: 68px;
     border-left: 1px solid #000000;
-    border-radius: 0px 13px 13px 0px;
     transition: .2s ease;
 }
 
 .container-escolhadrop:hover {
-    background-color: #00005A;
+    background-color: #e9e9e9;
 }
 
 /* RODAPE */
