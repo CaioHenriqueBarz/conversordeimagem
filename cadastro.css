@@ -30,6 +30,13 @@ body  {
     box-shadow: 0px 1px 4px #00000040;
 }
 
+.container-basecadastro p a {
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: #00005A;
+}
+
 .divinputtext input {
     width: 400px;
     height: 45px;
