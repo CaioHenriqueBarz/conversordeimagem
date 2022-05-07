@@ -89,23 +89,6 @@ body  {
     color: #00005A;
 }
 
-.divinputsenc input {
-    width: 400px;
-    height: 45px;
-    border: none;
-    margin-bottom: 30px;
-    font-size: 15px;
-    color: #00005A;
-    background-color: none;
-    outline: none;
-    border-bottom: 2px solid #00005A;
-}
-
-.divinputsenc input::placeholder {
-    padding: 5px;
-    color: #00005A;
-}
-
 .divbuttom button {
     width: 400px;
     height: 60px;
